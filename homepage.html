@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #bc8f8f;
+}
+
+.right {
+  right: 0;
+  background-color: #e9c4bc;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 180px;
+  height: 180px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <a href="home.html">
+    <img src="Picture1.png" >
+    </a>
+    
+    <h2>WORK</h2>
+    <p>experience | projects</p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <a href="food.html">
+    <img src="Picture2.png">
+    </a>
+    <h2>LIFE</h2>
+    <p>travel | food</p>
+  </div>
+</div>
+     
+</body>
+</html> 
