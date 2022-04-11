@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maggie Lin | Life</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(188,143,143) ;
+  padding: 80px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(91,58,41);
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: rgb(179, 146, 131);
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other, on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* /* Image cover */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgb(91,58,41);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>My Personal Life.</h2>
+</header>
+
+<div class="row">
+
+    <div class="column" style="background-color:#aaa;">
+        <div class="container">
+            <img src="vineyard.jpg" style="width:100%;height:280px">
+            <div class="middle">
+            <a href="washingtondc.html">
+              <div class="text">DC</div>
+            </a>
+            </div>
+          </div>
+    </div>
+
+    <div class="column" style="background-color:#bbb;">
+        <div class="container">
+            <img src="taiwan.jpg" style="width:100%;height:280px">
+            <div class="middle">
+            <a href="taiwan.html">
+              <div class="text">Taiwan</div>
+            </a>
+            </div>
+          </div>
+    </div>
+
+    <div class="column" style="background-color:#ccc;">
+        <div class="container">
+            <img src="joshua_top.jpg" style="width:100%;height:280px">
+            <div class="middle">
+            <a href="travel.html">
+              <div class="text">Travel</div>
+            </a>
+            </div>
+          </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
