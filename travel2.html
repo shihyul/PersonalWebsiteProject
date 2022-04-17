@@ -119,8 +119,39 @@
             @media only screen and (max-width: 300px) {
                 .prev, .next,.text {font-size: 11px}
             }
+
+            /* Breadcrumb */
+            ul.breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            background-color: rgb(188,143,143);
+            }
+            ul.breadcrumb li {
+            display: inline;
+            font-size: 18px;
+            }
+            ul.breadcrumb li+li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+            }
+            ul.breadcrumb li a {
+            color: rgb(91,58,41);
+            text-decoration: none;
+            }
+            ul.breadcrumb li a:hover {
+            text-decoration: underline;
+            }
         </style>
     </head>
+
+    <ul class="breadcrumb" style="text-align:center">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="homepage.html">Select</a></li>
+        <li><a href="life2.html">Life</a></li>
+        <li>Travel</li>
+      </ul>
+
     <body>
 
         <div class="main">
