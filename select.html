@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <title>Maggie Lin | Select </title>
+</head>
+
+<style>
+body{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+/*SPLIT SCREEN STYLE*/
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left{
+  left: 0;
+  background-color: #bc8f8f;
+}
+
+.right{
+  right: 0;
+  background-color: #e9c4bc;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img{
+  width: 180px;
+  height: 180px;
+}
+</style>
+
+<body>
+  <div class="split left">
+    <div class="centered">
+      <a href="work.html">
+        <img 
+          src="Picture1.png"
+          style="width:200px; object-fit: cover; height: 200px">
+      </a>
+      <h2>WORK</h2>
+      <p>academic | professional</p>
+    </div>
+  </div>
+
+  <div class="split right">
+    <div class="centered">
+      <a href="life.html">
+        <img 
+          src="Picture2.png"
+          style="width:170px; object-fit: cover; height: 170px">
+      </a>
+      <h2>LIFE</h2>
+      <p>experience | travel</p>
+    </div>
+  </div>
+</body>
+
+</html> 

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
   <title>Maggie Lin | Taiwan </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <style>
 * {
   box-sizing: border-box;
@@ -15,12 +17,6 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
 h1 {
   font-size: 50px;
   word-break: break-all;
@@ -30,6 +26,7 @@ h1 {
   margin: 8px -16px;
 }
 
+/* GALLERY STYLE */
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
@@ -53,6 +50,7 @@ h1 {
 .content {
   background-color: #e9c4bc;
   padding: 10px;
+  height: 450px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -69,89 +67,88 @@ h1 {
   }
 }
 
-/* Breadcrumb */
+/* BREADCRUMB STYLE */
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
   background-color: rgb(188,143,143);
 }
+
 ul.breadcrumb li {
   display: inline;
   font-size: 18px;
 }
+
 ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
 }
+
 ul.breadcrumb li a {
   color: rgb(91,58,41);
   text-decoration: none;
 }
+
 ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 </style>
-</head>
+
 <body>
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="select.html">Select</a></li>
+    <li><a href="life.html">Life</a></li>
+    <li>Taiwan</li>
+  </ul>
 
-<ul class="breadcrumb">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="homepage.html">Select</a></li>
-  <li><a href="life2.html">Life</a></li>
-  <li>Taiwan</li>
-</ul>
+  <h1>PERMANENT HOME: TAIWAN</h1>
 
-<!-- MAIN (Center website) -->
-<div class="main">
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
 
-<h1>PERMANENT HOME: TAIWAN</h1>
-<hr>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-
-  <div class="column">
-    <div class="content">
-      <img 
-        src="kenting.jpg"  
-        style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Family</h3>
-      <p>Family trip to Kenting in Southern Taiwan.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="kenting.jpg"  
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Family</h3>
+        <p>Family trip to Kenting Beach in Southern Taiwan.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="content">
-    <img 
-      src="friends.JPG" 
-      style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Friends</h3>
-      <p>Friends I grew up with.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="friends.JPG" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Friends</h3>
+        <p>Friends I grew up with.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="content">
-    <img 
-      src="qipao.JPG" 
-      style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Qipao</h3>
-      <p>Traditional clothing experience in Tainan.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="qipao.JPG" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Qipao</h3>
+        <p>Traditional clothing rental experience in Tainan.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="content">
-    <img 
-      src="birthday.jpg" 
-      style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Birthday</h3>
-      <p>My 25th birthday celebration.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="birthday.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Birthday</h3>
+        <p>My 25th birthday celebration at a villa.</p>
+      </div>
     </div>
-  </div>
 
-</div>
+  </div>
 
   <div class="row">
 
@@ -161,15 +158,15 @@ ul.breadcrumb li a:hover {
           src="edge.jpg"  
           style="width:100%; object-fit: cover; height: 300px;">
         <h3>Edge of Taiwan</h3>
-        <p>View of the Pacific Ocean.</p>
+        <p>View of the Pacific Ocean from the edge of Taiwan.</p>
       </div>
     </div>
-  
+    
     <div class="column">
       <div class="content">
-      <img 
-        src="river.jpg" 
-        style="width:100%; object-fit: cover; height: 300px;">
+        <img 
+          src="river.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
         <h3>Little Bali</h3>
         <p>Hidden gem in Southern Taiwan.</p>
       </div>
@@ -177,27 +174,25 @@ ul.breadcrumb li a:hover {
 
     <div class="column">
       <div class="content">
-      <img 
-        src="halloween.JPG" 
-        style="width:100%; object-fit: cover; height: 300px;">
+        <img 
+          src="halloween.JPG" 
+          style="width:100%; object-fit: cover; height: 300px;">
         <h3>Halloween 2022</h3>
-        <p>Sushi chef and soysauce.</p>
+        <p>Costume inspiration: sushi chef and soysauce.</p>
       </div>
     </div>
 
     <div class="column">
       <div class="content">
-      <img 
-        src="nye.jpg" 
-        style="width:100%; object-fit: cover; height: 300px;">
+        <img 
+          src="nye.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
         <h3>New Year 2022</h3>
-        <p>NYE celebration on a rooftop bar.</p>
+        <p>NYE celebration on a rooftop bar in Kaohsiung.</p>
       </div>
     </div>
 
   </div>
-
-</div>
-
 </body>
+
 </html>

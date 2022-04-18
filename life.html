@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Maggie Lin | Life</title>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <title>Maggie Lin | Life</title>
+</head>
+
 <style>
 * {
   box-sizing: border-box;
@@ -15,6 +16,10 @@ header {
   text-align: center;
   font-size: 35px;
   color: rgb(91,58,41);
+}
+
+.h1{
+  padding-top:50px;
 }
 
 body {
@@ -34,7 +39,7 @@ footer {
   color: rgb(91,58,41);
 }
 
-/* CARD */
+/* CARD STYLE*/
 .card {
   background-color: #e9c4bc;
   width: 50%;
@@ -47,7 +52,7 @@ footer {
   padding: 2px 16px;
 }
 
-/* TIMELINE */
+/* TIMELINE STYLE*/
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -173,7 +178,7 @@ footer {
   }
 }
 
-/* IMAGE COLUMNS */
+/* IMAGE COLUMNS STYLE*/
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -239,7 +244,7 @@ footer {
   padding: 16px 32px;
 }
 
-/* BREADCRUMB */
+/* BREADCRUMB STYLE*/
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
@@ -264,109 +269,108 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
-
 </style>
-</head>
+
 
 <body>
-
-<ul class="breadcrumb">
+  <ul class="breadcrumb">
     <li><a href="index.html">Home</a></li>
-    <li><a href="homepage.html">Select</a></li>
+    <li><a href="select.html">Select</a></li>
     <li>Life</li>
-</ul>
+  </ul>
 
-<header>
-  <h2>My Personal Life</h2>
-</header>
+  <header>
+    <h2>My Personal Life</h2>
+  </header>
 
-<!-- CARD -->
-<div class="card">
-  <img src="casual_headshot.jpg" style="width:100%">
-  <div class="cardcontainer">
-    <h4><b>Maggie Lin</b></h4> 
-    <p>Taiwanese citizen | DC resident | World traveler</p> 
-  </div>
-</div>
-
-<!-- TIMELINE -->
-<div class="timeline">
-
-  <div class="container left">
-    <div class="content">
-      <h2>1996</h2>
-      <p>Born in Kaohsiung, Taiwan.</p>
+  <!-- CARD -->
+  <div class="card">
+    <img src="casual_headshot.jpg" style="width:100%">
+    <div class="cardcontainer">
+      <h4><b>Maggie Lin</b></h4> 
+      <p>Taiwanese citizen | DC resident | World traveler</p> 
     </div>
   </div>
 
-  <div class="container right">
-    <div class="content">
-      <h2>2008</h2>
-      <p>Moved to Bangkok, Thailand.</p>
+  <!-- TIMELINE -->
+  <div class="timeline">
+
+    <div class="container left">
+      <div class="content">
+        <h2>1996</h2>
+        <p>Born in Kaohsiung, Taiwan.</p>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <h2>2008</h2>
+        <p>Moved to Bangkok, Thailand.</p>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <h2>2015</h2>
+        <p>Moved to Pittsburgh, PA to pursue undergraduate degree.</p>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <h2>2021</h2>
+        <p>Moved to Washington, DC to pursue MBA degree.</p>
+      </div>
+    </div>
+  
+  </div>
+
+  <!-- IMAGE COLUMN -->
+  <div class= h1>
+    <h1>Life Journey</h1>
+    <p>Click on the boxes to learn more.</p>
+
+  <div class="column" style="background-color:#bbb">
+    <div class="imagecontainer">
+      <img
+        src="taiwan.jpg"
+        style="width:100%; object-fit: cover; height: 270px">
+      <div class="middle">
+        <a href="taiwan.html">
+          <div class="text">Taiwan</div>
+        </a>
+      </div>
+    </div>
+  </div>
+    
+
+  <div class="column" style="background-color:#aaa">
+    <div class="imagecontainer">
+      <img
+        src="vineyard.jpg" 
+        style="width:100%; object-fit: cover; height: 270px">
+      <div class="middle">
+        <a href="washingtondc.html">
+          <div class="text">DC</div>
+        </a>
+      </div>
     </div>
   </div>
 
-  <div class="container left">
-    <div class="content">
-      <h2>2015</h2>
-      <p>Moved to Pittsburgh, PA to pursue undergraduate degree.</p>
+  <div class="column" style="background-color:#ccc">
+    <div class="imagecontainer">
+      <img
+        src="joshua_top.jpg"
+        style="width:100%; object-fit: cover; height: 270px">
+      <div class="middle">
+        <a href="travel.html">
+          <div class="text">Travel</div>
+        </a>
+      </div>
     </div>
   </div>
 
-  <div class="container right">
-    <div class="content">
-      <h2>2021</h2>
-      <p>Moved to Washington, DC to pursue MBA degree.</p>
-    </div>
-  </div>
-
-</div>
-
-<!-- IMAGE COLUMN -->
-<h1>Life Journey</h2>
-  <p>Click on the boxes to learn more.</p>
-
-    <div class="column" style="background-color:#bbb;">
-      <div class="imagecontainer">
-          <img
-              src="taiwan.jpg"
-              style="width:100%; object-fit: cover; height: 270px;">
-          <div class="middle">
-          <a href="taiwan.html">
-            <div class="text">Taiwan</div>
-          </a>
-          </div>
-        </div>
-    </div>
-
-    <div class="column" style="background-color:#aaa;">
-        <div class="imagecontainer">
-            <img
-                src="vineyard.jpg" 
-                style="width:100%; object-fit: cover; height: 270px;">
-            <div class="middle">
-            <a href="washingtondc.html">
-              <div class="text">DC</div>
-            </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="column" style="background-color:#ccc;">
-        <div class="imagecontainer">
-            <img
-                src="joshua_top.jpg"
-                style="width:100%; object-fit: cover; height: 270px;">
-            <div class="middle">
-            <a href="travel2.html">
-              <div class="text">Travel</div>
-            </a>
-            </div>
-        </div>
-    </div>
-
-
-<footer></footer>
-
+  <footer></footer>
 </body>
+
 </html>

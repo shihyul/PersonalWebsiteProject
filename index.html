@@ -1,83 +1,86 @@
-<html>
-  <head>
-    <title>Maggie Lin | Personal Website</title>
-  </head>
-  <style>
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    body{
-      background: #bc8f8f;
-      background-size: cover;
-      font-family: 'Courier New', Courier, monospace; 
-    }
-    .container{
-      display: inline-block;
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+<head>
+  <title>Maggie Lin | Personal Website</title>
+</head>
+
+<style>
+body{
+  background: #bc8f8f;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+/*ANIMATION STYLE*/
+.container{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
     
-    .typed-out{
-      border-right: .15em solid #835e63;
-      white-space: nowrap;
-      animation: 
-      typing 2s steps(20, end) forwards;
-      font-size: 1.6rem;
-      width: 0;
-    }
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 180px }
-    }
+.typed-out{
+  border-right: .15em solid #835e63;
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
 
-    h1 {
-    display: inline-block;
-    height: 80%;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 180px }
+}
+
+h1 {
+  display: inline-block;
+  height: 80%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
  
-    h2 {
-    display: inline-block;
-    height: 120%;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+h2 {
+  display: inline-block;
+  height: 120%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    button{
-    padding: 16px 32px;
-    background-color: pink;
-    border-radius: 10px;
-    width: 200px;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace; 
-    }
+button{
+  padding: 16px 32px;
+  background-color: pink;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace; 
+}
 
-    button:hover {
-    background-color: #835e63;
-        color: black;
-    }  
-  </style>
+button:hover {
+  background-color: #835e63;
+  color: black;
+}  
+</style>
 
 <body>
+  <h1>HELLO.</h1>
 
-<h1>HELLO.</h1>
-
-<div class="container">
-  <div class="typed-out">I AM MAGGIE.</div>
-</div>
-
-<h2>
-    <button onclick="document.location='homepage.html'">enter my site</button>
-</h2>
-
+  <div class="container">
+    <div class="typed-out">I AM MAGGIE.</div>
+  </div>
+    
+  <h2>
+    <button onclick="document.location='select.html'">enter my site</button>
+  </h2>
 </body>
+
 </html>

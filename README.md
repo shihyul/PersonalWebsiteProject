@@ -1,1 +1,1 @@
-# traveljournal
+Website is built from scratch, with codes adopted from W3Schools.

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
   <title>Maggie Lin | DC </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <style>
 * {
   box-sizing: border-box;
@@ -15,12 +17,6 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
 h1 {
   font-size: 50px;
   word-break: break-all;
@@ -30,6 +26,7 @@ h1 {
   margin: 8px -16px;
 }
 
+/* GALLERY STYLE */
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
@@ -53,6 +50,7 @@ h1 {
 .content {
   background-color: #e9c4bc;
   padding: 10px;
+  height: 450px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -69,90 +67,88 @@ h1 {
   }
 }
 
-/* Breadcrumb */
+/* BREADCRUMB STYLE */
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
   background-color: rgb(188,143,143);
 }
+
 ul.breadcrumb li {
   display: inline;
   font-size: 18px;
 }
+
 ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
 }
+
 ul.breadcrumb li a {
   color: rgb(91,58,41);
   text-decoration: none;
 }
+
 ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
-
 </style>
-</head>
+
 <body>
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="select.html">Select</a></li>
+    <li><a href="life.html">Life</a></li>
+    <li>DC</li>
+  </ul>
 
-<ul class="breadcrumb">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="homepage.html">Select</a></li>
-  <li><a href="life2.html">Life</a></li>
-  <li>DC</li>
-</ul>
+  <h1>CURRENT HOME: WASHINGTON DC</h1>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
 
-<!-- MAIN (Center website) -->
-<div class="main">
-
-<h1>CURRENT HOME: WASHINGTON DC</h1>
-<hr>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-
-  <div class="column">
-    <div class="content">
-      <img 
-        src="gucampus.jpg"  
-        style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Georgetown Campus</h3>
-      <p>McDonough MBA, Class of 2022.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="gucampus.jpg"  
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Georgetown Campus</h3>
+        <p>Currently a full-time MBA student at Georgetown McDonough.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="content">
-    <img 
-      src="cherryblossom.jpg" 
-      style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Cherry Blossom</h3>
-      <p>2022 Cherry Blossom Festival.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="cherryblossom.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Cherry Blossom</h3>
+        <p>2022 Cherry Blossom Festival.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="content">
-    <img 
-      src="arboretum.jpg" 
-      style="width:100%; object-fit: cover; height: 300px;">
-      <h3>National Arboretum</h3>
-      <p>National Arboretum fall colors.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="arboretum.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>National Arboretum</h3>
+        <p>National Arboretum fall colors.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="content">
-    <img 
-      src="shennandoah.jpg" 
-      style="width:100%; object-fit: cover; height: 300px;">
-      <h3>Shennandoah</h3>
-      <p>7-hour hike up Old Rag Mountain.</p>
+    <div class="column">
+      <div class="content">
+        <img 
+          src="shennandoah.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Shennandoah</h3>
+        <p>7-hour hike up Old Rag Mountain.</p>
+      </div>
     </div>
-  </div>
 
-</div>
+  </div>
 
   <div class="row">
 
@@ -165,38 +161,38 @@ ul.breadcrumb li a:hover {
         <p>2021 Chrismtas Light Maze & Village.</p>
       </div>
     </div>
-  
+    
     <div class="column">
       <div class="content">
-      <img 
-        src="monticello.jpg" 
-        style="width:100%; object-fit: cover; height: 300px;">
+        <img 
+          src="monticello.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
         <h3>Monticello</h3>
-        <p>Thomas Jefferson Charlottesville, VA.</p>
+        <p>Thomas Jefferson plantation in Charlottesville, VA.</p>
       </div>
     </div>
-  
+    
     <div class="column">
       <div class="content">
-      <img 
-        src="portraitgallery.jpg" 
-        style="width:100%; object-fit: cover; height: 300px;">
-        <h3>Museum</h3>
+        <img 
+          src="portraitgallery.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
+        <h3>Museums</h3>
         <p>National Portrait Gallery.</p>
       </div>
     </div>
-  
+    
     <div class="column">
       <div class="content">
-      <img 
-        src="mall.jpg" 
-        style="width:100%; object-fit: cover; height: 300px;">
+        <img 
+          src="mall.jpg" 
+          style="width:100%; object-fit: cover; height: 300px;">
         <h3>National Mall</h3>
         <p>Washington DC National Mall.</p>
       </div>
     </div>
+    
   </div>
-</div>
-
 </body>
+
 </html>
