@@ -10,24 +10,31 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color:rgb(188,143,143) ;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(91,58,41);
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.h1 {
+  padding-top: 50px;
+}
+
 body {
   background-color: #bc8f8f;
   padding: 20px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-@media screen and (max-width: 600px) {
-  .h1 {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 }
 
 .row {
@@ -111,7 +118,9 @@ ul.breadcrumb li a:hover {
     <li>Taiwan</li>
   </ul>
 
-  <h1>PERMANENT HOME: TAIWAN</h1>
+  <header>
+    <h1>PERMANENT HOME: TAIWAN</h1>
+  </header>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
