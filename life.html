@@ -18,6 +18,17 @@ header {
   color: rgb(91,58,41);
 }
 
+@media screen and (max-width: 500px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
 .h1{
   padding-top:50px;
 }
@@ -51,6 +62,11 @@ footer {
 .cardcontainer {
   padding: 2px 16px;
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+  width: 300px;
+  }
 
 /* TIMELINE STYLE*/
 /* The actual timeline (the vertical ruler) */
@@ -155,7 +171,7 @@ footer {
   
   /* Full-width containers */
   .container {
-  width: 100%;
+  width: 400px;
   padding-left: 70px;
   padding-right: 25px;
   }
